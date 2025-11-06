@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing - Your Name</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            background: #fff;
+        }
+        
+        nav {
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        nav a {
+            margin-right: 20px;
+            color: #666;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        nav a:hover {
+            color: #0066cc;
+        }
+        
+        nav a.active {
+            color: #000;
+            font-weight: 500;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #000;
+        }
+        
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #000;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .post {
+            margin-bottom: 35px;
+            padding-bottom: 35px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .post:last-child {
+            border-bottom: none;
+        }
+        
+        .post h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .post .date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .post .description {
+            color: #555;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 40px 15px;
+            }
+            
+            h1 {
+                font-size: 22px;
+            }
+            
+            nav a {
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="background.html">Background</a>
+        <a href="interests.html">Interests</a>
+        <a href="writing.html" class="active">Writing</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+
+    <h1>Writing</h1>
+    
+    <p>(Brief description of your writing)</p>
+    
+    <div class="post">
+        <h3><a href="#">(Article Title 1)</a></h3>
+        <div class="date">(Date)</div>
+        <p class="description">(Brief description of the article)</p>
+    </div>
+    
+    <div class="post">
+        <h3><a href="#">(Article Title 2)</a></h3>
+        <div class="date">(Date)</div>
+        <p class="description">(Brief description of the article)</p>
+    </div>
+    
+    <div class="post">
+        <h3><a href="#">(Article Title 3)</a></h3>
+        <div class="date">(Date)</div>
+        <p class="description">(Brief description of the article)</p>
+    </div>
+    
+    <div class="post">
+        <h3><a href="#">(Article Title 4)</a></h3>
+        <div class="date">(Date)</div>
+        <p class="description">(Brief description of the article)</p>
+    </div>
+    
+    <div class="post">
+        <h3><a href="#">(Article Title 5)</a></h3>
+        <div class="date">(Date)</div>
+        <p class="description">(Brief description of the article)</p>
+    </div>
+    
+    <div class="post">
+        <h3><a href="#">(Article Title 6)</a></h3>
+        <div class="date">(Date)</div>
+        <p class="description">(Brief description of the article)</p>
+    </div>
+    
+    <h2>Elsewhere</h2>
+    <p>(Links to other places where you write)</p>
+</body>
+</html>
