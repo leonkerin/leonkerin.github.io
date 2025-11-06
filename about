@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Your Name</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            background: #fff;
+        }
+        
+        nav {
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        nav a {
+            margin-right: 20px;
+            color: #666;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        nav a:hover {
+            color: #0066cc;
+        }
+        
+        nav a.active {
+            color: #000;
+            font-weight: 500;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #000;
+        }
+        
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #000;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .timeline {
+            margin-top: 30px;
+        }
+        
+        .timeline-item {
+            margin-bottom: 30px;
+            padding-left: 20px;
+            border-left: 2px solid #eee;
+        }
+        
+        .timeline-item h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-item .date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 40px 15px;
+            }
+            
+            h1 {
+                font-size: 22px;
+            }
+            
+            nav a {
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="background.html" class="active">Background</a>
+        <a href="interests.html">Interests</a>
+        <a href="writing.html">Writing</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+
+    <h1>Background</h1>
+    
+    <h2>Education</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>(Degree 1)</h3>
+            <div class="date">(University Name) • (Year)</div>
+            <p>(Description of your studies and focus)</p>
+        </div>
+        
+        <div class="timeline-item">
+            <h3>(Degree 2)</h3>
+            <div class="date">(University Name) • (Year)</div>
+            <p>(Description of your studies and focus)</p>
+        </div>
+    </div>
+    
+    <h2>Experience</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>(Job Title 1)</h3>
+            <div class="date">(Company/Organization) • (Year) - Present</div>
+            <p>(Description of your role and responsibilities)</p>
+        </div>
+        
+        <div class="timeline-item">
+            <h3>(Job Title 2)</h3>
+            <div class="date">(Company/Organization) • (Year) - Present</div>
+            <p>(Description of your role and responsibilities)</p>
+        </div>
+        
+        <div class="timeline-item">
+            <h3>(Job Title 3)</h3>
+            <div class="date">(Company/Organization) • (Year) - (Year)</div>
+            <p>(Description of your role and responsibilities)</p>
+        </div>
+    </div>
+    
+    <h2>Skills & Tools</h2>
+    <p>(List your skills, programming languages, tools, and areas of expertise)</p>
+</body>
+</html>
